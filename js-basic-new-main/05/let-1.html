@@ -6,6 +6,17 @@
 	<title>블록 변수의 특징</title>
 </head>
 <body>	
-		<script src="js/let-1.js"></script>
+		<script src="js/let-1.js">
+			function calcSum(n) {
+				let sum = 0;
+
+				for (let i = 1; i < n + 1; i++){
+					sum += i;
+				}
+				console.log(sum);
+			}
+
+			calcSum(10);
+		</script>
 </body>
 </html>

@@ -7,6 +7,14 @@
 	<title>전역 변수와 지역 변수</title>	
 </head>
 <body>	
-		<script src="js/local.js"></script>
+		<script src="js/local.js">
+			var myVar = 100;
+			test();
+			document.write("myVar is " + myVar);
+
+			function test(){
+				var myVar = 50;
+			}
+		</script>
 </body>
 </html>
