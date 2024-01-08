@@ -7,3 +7,13 @@
 			font-size:20px;
 			line-height:30px;
 		}
+
+		#displayPrice {
+			width:500px;
+			margin:20px auto;
+			padding:10px;
+			border:1px solid #ccc;
+			text-align:center;
+			font-size:20px;
+			line-height:30px;
+		}
